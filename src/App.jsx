@@ -66,7 +66,9 @@ function App() {
       method: "POST",
       headers: {
         "Authorization": "Bearer " + apiKey,
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "organization": 'org-tn8CQywjH9EebSOEwjWXxEz6',
+
       },
       body: JSON.stringify(apiRequestBody)
     }).then((data) => {
