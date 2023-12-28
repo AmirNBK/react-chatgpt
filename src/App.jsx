@@ -67,7 +67,6 @@ function App() {
       headers: {
         "Authorization": "Bearer " + apiKey,
         "Content-Type": "application/json",
-        "organization": 'org-tn8CQywjH9EebSOEwjWXxEz6',
 
       },
       body: JSON.stringify(apiRequestBody)
