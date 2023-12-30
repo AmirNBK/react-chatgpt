@@ -94,7 +94,7 @@ function App() {
                 return <Message key={i} model={message} />
               })}
             </MessageList>
-            <MessageInput placeholder="Type message here" onSend={handleSend} />        
+            <MessageInput placeholder="Type message here" onSend={handleSend} attachButton={false} />        
           </ChatContainer>
         </MainContainer>
       </div>
